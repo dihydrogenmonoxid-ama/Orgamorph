@@ -16,7 +16,8 @@
     "test": "node --test \"tests/core/**/*.test.ts\" \"tests/unit/**/*.test.ts\"",
     "test:coverage": "node --test --experimental-test-coverage --test-coverage-include=\"src/core/**\" \"tests/core/**/*.test.ts\"",
     "test:e2e": "playwright test",
-    "examples": "node scripts/generate-examples.ts"
+    "examples": "node scripts/generate-examples.ts",
+    "test:perf": "PERF=1 playwright test tests/e2e/perf.spec.ts"
   },
   "dependencies": {
     "@preact/signals": "2.11.4",
