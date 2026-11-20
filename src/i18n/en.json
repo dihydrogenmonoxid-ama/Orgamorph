@@ -1,0 +1,449 @@
+{
+  "about": {
+    "build": "Build",
+    "license": "Licence: EUPL-1.2. No warranty.",
+    "privacy": "Orgamorph works entirely offline. There are no network requests and no telemetry. Data stays in your file or in this browser's storage.",
+    "tagline": "From org chart to network.",
+    "title": "About Orgamorph",
+    "github": "Source code on GitHub",
+    "source": "Source code and releases"
+  },
+  "action": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "new": "New",
+    "open": "Open",
+    "redo": "Redo",
+    "save": "Save",
+    "saveFile": "Save as file",
+    "undo": "Undo",
+    "home": "Back to start page (saves first)"
+  },
+  "confirm": {
+    "title": "Confirm"
+  },
+  "conflict": {
+    "title": "File changed externally",
+    "text": "The file was changed outside Orgamorph since it was last saved. Your changes have not been written yet.",
+    "reload": "Reload",
+    "keep": "Keep my version",
+    "copy": "Save as copy"
+  },
+  "document": {
+    "title": "Document",
+    "name": "Title",
+    "organization": "Organization",
+    "asOf": "As of",
+    "levelNames": "Level names (comma-separated)",
+    "spanHint": "Span-of-control hint above",
+    "created": "Created",
+    "modified": "Modified",
+    "edit": "Edit document properties",
+    "newTitle": "New organization",
+    "untitled": "Untitled",
+    "settings": "Settings"
+  },
+  "empty": {
+    "lead": "Capture an organization, view it as org chart, star network or network, and overlay projects and relations. Choose a starting point.",
+    "exampleTitle": "Open an example",
+    "exampleText": "A ready-made document to try out. Changes only affect your copy.",
+    "new": "Empty document",
+    "open": "Open file",
+    "recent": "Recently opened",
+    "fileEntry": "File",
+    "browserEntry": "Browser storage",
+    "privacy": "No network requests, no telemetry. Names and position numbers are optional and hidden in outputs by default.",
+    "tableTitle": "Import a structure",
+    "tableText": "From Excel (XLSX) or CSV. The template has an “Example” sheet and a “Blank” sheet to fill in.",
+    "tableRun": "Choose XLSX or CSV",
+    "templateXlsx": "Download Excel template",
+    "exampleCsv": "Download example CSV",
+    "startTitle": "Start fresh",
+    "startText": "Create an empty document or open a saved Orgamorph file."
+  },
+  "example": {
+    "behoerde": "City administration (KGSt)",
+    "firma": "Simple company"
+  },
+  "export": {
+    "title": "Export",
+    "short": "Export",
+    "filterHint": "All exports show the current view with focus and filters.",
+    "privacy": "Personal data",
+    "showHolder": "Show names",
+    "showPosition": "Show position numbers",
+    "privacyHint": "Off by default. Applies to SVG, PNG, PDF and unit CSV.",
+    "png": "PNG",
+    "resolution": "Resolution",
+    "formats": "Formats",
+    "jsonHint": "JSON contains the complete document including all fields.",
+    "pngFailed": "PNG could not be created.",
+    "as": {
+      "svg": "SVG",
+      "png": "PNG",
+      "json": "JSON (document)",
+      "csvUnits": "CSV units",
+      "csvTopics": "CSV projects & topics",
+      "outline": "Outline text"
+    },
+    "res": {
+      "screen": "Screen (1×)",
+      "double": "Double (2×)",
+      "printA4": "Print 300 dpi for A4",
+      "printA3": "Print 300 dpi for A3"
+    }
+  },
+  "external": {
+    "count": "{n} units"
+  },
+  "filter": {
+    "focus": "Focus",
+    "focusAll": "Whole organization",
+    "focusBadge": "Focus",
+    "focusOn": "Set focus",
+    "focusOff": "Clear focus",
+    "external": "External contacts",
+    "date": "Reference date",
+    "dateAll": "all",
+    "more": "Filter",
+    "topicTypes": "Types of projects & topics",
+    "relationKinds": "Relation kinds",
+    "labels": "Labels",
+    "treeOptions": "Org chart",
+    "stackLeaves": "Stacked leaf level",
+    "leftRight": "Left-to-right orientation",
+    "reset": "Reset",
+    "hiddenCount": "{n} hidden"
+  },
+  "form": {
+    "required": "Required",
+    "search": "Search",
+    "searchUnits": "Search units",
+    "choose": "Please choose"
+  },
+  "help": {
+    "title": "Keyboard shortcuts"
+  },
+  "keys": {
+    "enter": "Add sibling unit below (in name field: commit and add next)",
+    "tab": "Indent (becomes child) / outdent",
+    "insert": "Add child unit",
+    "f2": "Rename",
+    "delete": "Delete unit (with subtree, asks if more than one unit)",
+    "altArrows": "Change order",
+    "arrows": "Move in structure editor, collapse and expand",
+    "views": "Org chart / star network / network",
+    "focus": "Focus on selected unit",
+    "esc": "Clear focus",
+    "project": "New project",
+    "matrix": "Participation matrix",
+    "undo": "Undo / redo",
+    "save": "Save or choose file location",
+    "open": "Open",
+    "print": "Print / PDF",
+    "zoom": "Zoom in, zoom out, fit",
+    "help": "This help"
+  },
+  "import": {
+    "title": "Import",
+    "short": "Import",
+    "outline": "Outline text",
+    "outlineHint": "Indented list (tab or 2 spaces per level, optional “Short | Name”). Inserted below “{target}”.",
+    "topicsHint": "Columns: title;type;from;to;lead;members. Participants by short name, name or ID, separated by comma or |.",
+    "outlinePlaceholder": "Executive board\n  D1 | Department 1\n    Unit 1.1\n    Unit 1.2\n  D2 | Department 2",
+    "text": "Content",
+    "file": "or choose file",
+    "run": "Import",
+    "done": "{n} units inserted.",
+    "topicsDone": "{n} projects & topics imported.",
+    "unitsTable": "Units (XLSX/CSV)",
+    "topicsTable": "Projects (XLSX/CSV)",
+    "unitsHint": "Columns as in the Excel template (id, parentId, name, shortName …). Top entries are inserted below “{target}”.",
+    "fileTable": "File (XLSX or CSV)",
+    "pasteCsv": "or paste CSV text",
+    "tableEmpty": "No entries found. Is there a “Bezeichnung” or “name” column?",
+    "doneWithIssues": "{n} units imported, {issues} notes.",
+    "fileError": {
+      "empty": "The file has no rows below the header.",
+      "unreadable": "The file could not be read."
+    }
+  },
+  "csvIssue": {
+    "missingColumn": "Column “{column}” missing",
+    "emptyName": "Row {row}: no name, skipped",
+    "unknownParent": "Row {row}: parent unit “{value}” unknown",
+    "duplicateId": "Row {row}: duplicate ID “{value}”",
+    "cycle": "Row {row}: cycle resolved",
+    "unknownUnit": "Row {row}: unit “{value}” unknown",
+    "invalidDate": "Row {row}: date “{value}” ignored",
+    "unknownType": "Row {row}: type “{value}” unknown, set to other"
+  },
+  "issue": {
+    "duplicatePositionNumber": "Position number {value} used more than once",
+    "spanOfControl": "Span of control {value}",
+    "noRoot": "No root",
+    "multipleRoots": "Multiple roots",
+    "missingParent": "Parent unit missing",
+    "cycle": "Cycle",
+    "duplicateId": "Duplicate ID",
+    "emptyName": "Name missing",
+    "missingParticipant": "Participant unit missing",
+    "duplicateParticipant": "Unit participates twice",
+    "missingRelationEnd": "Relation end missing",
+    "selfRelation": "Relation to itself",
+    "invalidPeriod": "Period: start after end",
+    "invalidDate": "Invalid date",
+    "invalidType": "Invalid type",
+    "invalidLogo": "Logo invalid, not printed"
+  },
+  "label": {
+    "shortNames": "Short names",
+    "leadCode": "Function codes",
+    "holder": "Names",
+    "positionNumber": "Position numbers"
+  },
+  "lang": {
+    "label": "Language"
+  },
+  "legend": {
+    "title": "Legend",
+    "hide": "Hide",
+    "show": "Show"
+  },
+  "matrix": {
+    "title": "Participation matrix",
+    "short": "Matrix",
+    "units": "Units",
+    "hint": "Click or space cycles: empty → contributing → lead → empty. Arrow keys move.",
+    "legendNone": "not involved (empty)",
+    "legendMember": "contributing (outline)",
+    "legendLead": "lead (filled)"
+  },
+  "metrics": {
+    "title": "Metrics",
+    "units": "Units",
+    "depth": "Hierarchy depth",
+    "width": "Width per level",
+    "span": "Span of control min / median / max",
+    "topics": "Projects & topics",
+    "unitsPerTopic": "Units per project (mean)",
+    "interfaces": "Interfaces",
+    "meshedness": "Meshedness",
+    "meshednessHint": "0 = pure tree, 1 = everyone connected",
+    "spanHint": "Based on the current filter. Hint above a span of control of {n}.",
+    "topParticipation": "Most project participations",
+    "topInterfaces": "Most interfaces",
+    "hints": "Hints"
+  },
+  "notice": {
+    "readOnly": "The document is open read-only.",
+    "readOnlyBadge": "Read-only",
+    "newerSchema": "The file was created with a newer Orgamorph version and is open read-only.",
+    "openFailed": "The file could not be opened.",
+    "permissionDenied": "Access to the file was not granted.",
+    "saved": "Saved.",
+    "saveFailed": "Saving failed.",
+    "fileMode": "Changes are saved automatically to “{name}”."
+  },
+  "panel": {
+    "left": "Structure, projects and relations",
+    "right": "Properties and metrics"
+  },
+  "parse": {
+    "notJson": "The file is not valid JSON.",
+    "notOrgamorph": "The file is not an Orgamorph file.",
+    "invalid": "The file contains invalid data."
+  },
+  "print": {
+    "title": "Print / PDF",
+    "short": "PDF",
+    "run": "Print",
+    "format": "Format",
+    "orientation": "Orientation",
+    "margin": "Margin (mm)",
+    "o": {
+      "auto": "automatic",
+      "portrait": "portrait",
+      "landscape": "landscape"
+    },
+    "legibility": "Legibility",
+    "minFont": "Smallest text: {pt} pt",
+    "suggestions": "Below 6 pt. Suggestions:",
+    "suggest": {
+      "useA3": "A3 instead of A4",
+      "stackLeaves": "Stacked leaf level",
+      "focus": "Focus on a part",
+      "hideDetails": "Hide names and position numbers"
+    },
+    "focusHint": "Set a focus in the toolbar, then print again.",
+    "pdfHint": "Choose “Save as PDF” in the print dialog.",
+    "preview": "Preview",
+    "organization": "Organization",
+    "asOf": "As of",
+    "date": "Ref. date",
+    "filter": "Filter",
+    "page": "Page {n} of {total}",
+    "createdWith": "created with Orgamorph {version}",
+    "more": "and {n} more",
+    "department": "Unit",
+    "author": "Prepared by"
+  },
+  "reject": {
+    "rootSibling": "The top unit has no siblings. Add a child unit.",
+    "emptyName": "A name is required.",
+    "emptyTitle": "A title is required.",
+    "deleteRoot": "The top unit cannot be deleted.",
+    "moveRoot": "The top unit stays at the top.",
+    "noPreviousSibling": "Indenting needs a unit above.",
+    "wouldCreateRoot": "Cannot outdent further.",
+    "noNeighbour": "Already at the edge.",
+    "invalidParent": "A unit cannot be moved below itself or a descendant.",
+    "duplicateId": "Duplicate ID.",
+    "missingParent": "Parent unit missing.",
+    "invalidPeriod": "The start is after the end.",
+    "unknownUnit": "Unit not found.",
+    "unknownTopic": "Project not found.",
+    "unknownRelation": "Relation not found.",
+    "selfRelation": "A relation needs two different units.",
+    "invalidSpan": "Value must be at least 1.",
+    "invalidLogo": "The logo has an invalid format."
+  },
+  "relation": {
+    "title": "Relation",
+    "listTitle": "Relations",
+    "add": "Add relation",
+    "delete": "Delete relation",
+    "empty": "No relations yet. Relations add to the line: reports to, directs, informs, coordinates.",
+    "from": "From",
+    "to": "To",
+    "kind": "Kind",
+    "note": "Note"
+  },
+  "relationKind": {
+    "reportsTo": "reports to",
+    "directs": "directs",
+    "informs": "informs",
+    "coordinates": "coordinates with"
+  },
+  "role": {
+    "lead": "lead",
+    "member": "contributing",
+    "none": "not involved",
+    "leadShort": "Lead",
+    "memberShort": "Contrib."
+  },
+  "save": {
+    "savedAt": "Saved {time}",
+    "saving": "Saving …",
+    "pending": "Changes …",
+    "notSaved": "Not saved",
+    "reason": {
+      "conflict": "file changed externally",
+      "permission": "no write access",
+      "storage": "browser storage unavailable",
+      "unknown": "write error"
+    },
+    "browserOnly": "Saved in browser only",
+    "browserHint": "Click to save as file",
+    "fileHint": "Saved automatically to this file"
+  },
+  "structure": {
+    "title": "Structure",
+    "addChild": "Child",
+    "addChildKey": "Add child unit (Insert)",
+    "addSibling": "Sibling below (Enter)",
+    "indent": "Indent (Tab)",
+    "outdent": "Outdent (Shift+Tab)",
+    "moveUp": "Move up (Alt+↑)",
+    "moveDown": "Move down (Alt+↓)",
+    "delete": "Delete unit",
+    "confirmDelete": "Delete “{name}” with all subordinate units ({n} units)? Participations and relations are removed too. Undo with Ctrl+Z.",
+    "keysHint": "Enter: new unit · Tab: indent · F2: rename · ?: all keys"
+  },
+  "toolbar": {
+    "label": "View and filter"
+  },
+  "topic": {
+    "title": "Project / topic",
+    "listTitle": "Projects & topics",
+    "add": "Add project",
+    "delete": "Delete project",
+    "empty": "No projects or topics yet. Add one with P or “Add project”.",
+    "name": "Title",
+    "newName": "New project",
+    "shortName": "Short name",
+    "type": "Type",
+    "from": "From",
+    "to": "To",
+    "permanent": "permanent / open-ended",
+    "color": "Colour",
+    "note": "Note",
+    "participants": "Participants ({n})",
+    "participantsList": "Participating units",
+    "roleHint": "Lead = lead unit, Contrib. = contributing",
+    "count": "{n} units",
+    "periodOpen": "permanent",
+    "periodSince": "since {from}",
+    "periodUntil": "until {to}"
+  },
+  "topicType": {
+    "project": "Project",
+    "workingGroup": "Working group",
+    "committee": "Committee",
+    "crossCutting": "Cross-cutting task",
+    "other": "Other"
+  },
+  "unit": {
+    "title": "Organizational unit",
+    "name": "Name",
+    "shortName": "Short name",
+    "type": "Type / level",
+    "responsibilities": "Area of responsibility",
+    "isStaff": "Staff unit",
+    "staffBadge": "Staff",
+    "lead": "Head",
+    "leadTitle": "Function",
+    "leadCode": "Function code",
+    "positionNumber": "Position number",
+    "holder": "Holder (name)",
+    "privacyHint": "Name and position number are optional and hidden in all outputs by default.",
+    "position": "Placement",
+    "parent": "Parent unit",
+    "isRoot": "Top unit of the organization.",
+    "note": "Note",
+    "connections": "Projects and relations",
+    "newName": "New unit",
+    "rootName": "Management"
+  },
+  "view": {
+    "tree": "Org chart",
+    "star": "Star network",
+    "network": "Network",
+    "switch": "View",
+    "summary": "{view} with {units} units, {topics} projects and {relations} relations. The structure is available as a list in the structure editor on the left.",
+    "desc": "Graphic view. Zoom with + and −, fit with 0, pan with the arrow keys.",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "fit": "Fit",
+    "local": "Local graph",
+    "localOff": "off",
+    "localDepth": "depth {n}",
+    "roledescription": "Interactive graphic"
+  },
+  "planHead": {
+    "title": "Plan header",
+    "department": "Unit / department",
+    "author": "Prepared by (name)",
+    "logo": "Logo",
+    "logoAdd": "Add logo",
+    "logoReplace": "Replace logo",
+    "logoRemove": "Remove logo",
+    "logoAlt": "Logo",
+    "noLogo": "no logo",
+    "hint": "Shown in the PDF title block. PNG, JPEG, WebP or SVG; large images are scaled down.",
+    "logoType": "File format not supported.",
+    "logoSize": "The logo is too large (about 300 kB max).",
+    "logoUnsafe": "The SVG contains scripts and was not used."
+  }
+}

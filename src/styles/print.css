@@ -1,0 +1,18 @@
+@media print {
+  html,
+  body {
+    background: #fff;
+    height: auto;
+  }
+  #app,
+  dialog,
+  .notices {
+    display: none !important;
+  }
+  #print-root {
+    display: block;
+  }
+  #print-root svg {
+    display: block;
+  }
+}

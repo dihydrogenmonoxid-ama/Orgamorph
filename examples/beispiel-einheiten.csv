@@ -1,0 +1,12 @@
+﻿ID;Übergeordnet;Bezeichnung;Kürzel;Typ;Funktion;Funktionskürzel;Stellennummer;Besetzung;Aufgabenbereich;Stabsstelle;Notiz
+1;;Geschäftsführung;GF;Geschäftsführung;Geschäftsführer;GF;;;Gesamtleitung;;
+2;1;Assistenz der Geschäftsführung;AS;Stabsstelle;;;;;Termine, Gremien;x;
+3;1;Vertrieb;VT;Bereich;Vertriebsleitung;VL;;;Kunden, Angebote;;
+4;3;Innendienst;VT-I;Team;Teamleitung;;;;;;
+5;3;Außendienst;VT-A;Team;Teamleitung;;;;;;
+6;1;Produktion;PR;Bereich;Produktionsleitung;PL;;;Fertigung, Lager;;
+7;6;Fertigung;PR-F;Team;Meister;;;;;;
+8;6;Lager und Versand;PR-L;Team;Teamleitung;;;;;;
+9;1;Verwaltung;VW;Bereich;Kaufmännische Leitung;KL;;;;;
+10;9;Buchhaltung;BH;Team;;;;;;;
+11;9;Personal;HR;Team;;;;;;;

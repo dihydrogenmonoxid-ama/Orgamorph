@@ -1,0 +1,28 @@
+/* Gestaltungstokens */
+:root {
+  --paper: #f7f6f3;
+  --surface: #ffffff;
+  --ink: #1c1c1c;
+  --secondary: #5e5e5e;
+  --grid: #e4e2dc;
+  --grid-strong: #cfccc4;
+  --signal: #b3261e;
+  --signal-soft: #f6e7e5;
+  --hover: #efede8;
+  --select: #e9e6df;
+  --font: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --radius: 3px;
+  --line: 1px solid var(--grid);
+  --menu-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 16px;
+  --s4: 24px;
+  --fs-xs: 11px;
+  --fs-s: 12px;
+  --fs-m: 13px;
+  --fs-l: 15px;
+  --left-w: 300px;
+  --right-w: 340px;
+}

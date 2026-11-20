@@ -1,0 +1,252 @@
+{
+  "format": "orgamorph",
+  "schemaVersion": 1,
+  "id": "d_1msg8m0ue3",
+  "meta": {
+    "title": "Muster GmbH",
+    "organization": "Muster GmbH",
+    "asOf": "2026-11-01",
+    "created": "2026-11-20T09:00:00.000Z",
+    "modified": "2026-11-20T09:00:00.000Z"
+  },
+  "units": [
+    {
+      "id": "u_hywci0klvx",
+      "parentId": null,
+      "name": "Geschäftsführung",
+      "shortName": "GF",
+      "type": "Geschäftsführung",
+      "responsibilities": "Gesamtleitung",
+      "lead": {
+        "title": "Geschäftsführer",
+        "code": "GF"
+      }
+    },
+    {
+      "id": "u_9rexkcup7y",
+      "parentId": "u_hywci0klvx",
+      "name": "Assistenz der Geschäftsführung",
+      "shortName": "AS",
+      "type": "Stabsstelle",
+      "responsibilities": "Termine, Gremien",
+      "isStaff": true
+    },
+    {
+      "id": "u_18l10omrh5",
+      "parentId": "u_hywci0klvx",
+      "name": "Vertrieb",
+      "shortName": "VT",
+      "type": "Bereich",
+      "responsibilities": "Kunden, Angebote",
+      "lead": {
+        "title": "Vertriebsleitung",
+        "code": "VL"
+      }
+    },
+    {
+      "id": "u_ot0bllbmct",
+      "parentId": "u_18l10omrh5",
+      "name": "Innendienst",
+      "shortName": "VT-I",
+      "type": "Team",
+      "lead": {
+        "title": "Teamleitung"
+      }
+    },
+    {
+      "id": "u_1c6b9vzhey",
+      "parentId": "u_18l10omrh5",
+      "name": "Außendienst",
+      "shortName": "VT-A",
+      "type": "Team",
+      "lead": {
+        "title": "Teamleitung"
+      }
+    },
+    {
+      "id": "u_s68qyn646s",
+      "parentId": "u_hywci0klvx",
+      "name": "Produktion",
+      "shortName": "PR",
+      "type": "Bereich",
+      "responsibilities": "Fertigung, Lager",
+      "lead": {
+        "title": "Produktionsleitung",
+        "code": "PL"
+      }
+    },
+    {
+      "id": "u_55ehcoru4w",
+      "parentId": "u_s68qyn646s",
+      "name": "Fertigung",
+      "shortName": "PR-F",
+      "type": "Team",
+      "lead": {
+        "title": "Meister"
+      }
+    },
+    {
+      "id": "u_awem82t5zp",
+      "parentId": "u_s68qyn646s",
+      "name": "Lager und Versand",
+      "shortName": "PR-L",
+      "type": "Team",
+      "lead": {
+        "title": "Teamleitung"
+      }
+    },
+    {
+      "id": "u_stcdchzjms",
+      "parentId": "u_hywci0klvx",
+      "name": "Verwaltung",
+      "shortName": "VW",
+      "type": "Bereich",
+      "lead": {
+        "title": "Kaufmännische Leitung",
+        "code": "KL"
+      }
+    },
+    {
+      "id": "u_urh91jigmi",
+      "parentId": "u_stcdchzjms",
+      "name": "Buchhaltung",
+      "shortName": "BH",
+      "type": "Team"
+    },
+    {
+      "id": "u_jabpk5s79l",
+      "parentId": "u_stcdchzjms",
+      "name": "Personal",
+      "shortName": "HR",
+      "type": "Team"
+    }
+  ],
+  "topics": [
+    {
+      "id": "t_r2talwn18x",
+      "title": "Neues Warenwirtschaftssystem",
+      "shortName": "WaWi",
+      "type": "project",
+      "period": {
+        "from": "2026-01-01",
+        "to": "2026-12-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_stcdchzjms",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_urh91jigmi",
+          "role": "member"
+        },
+        {
+          "unitId": "u_awem82t5zp",
+          "role": "member"
+        },
+        {
+          "unitId": "u_ot0bllbmct",
+          "role": "member"
+        }
+      ],
+      "color": "#0072B2"
+    },
+    {
+      "id": "t_8spgkp5df7",
+      "title": "Messeauftritt",
+      "type": "project",
+      "period": {
+        "from": "2026-09-01",
+        "to": "2027-03-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_18l10omrh5",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_1c6b9vzhey",
+          "role": "member"
+        },
+        {
+          "unitId": "u_55ehcoru4w",
+          "role": "member"
+        },
+        {
+          "unitId": "u_9rexkcup7y",
+          "role": "member"
+        }
+      ],
+      "color": "#E69F00"
+    },
+    {
+      "id": "t_kwbdcch602",
+      "title": "Arbeitsschutz",
+      "type": "crossCutting",
+      "period": {},
+      "participants": [
+        {
+          "unitId": "u_jabpk5s79l",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_55ehcoru4w",
+          "role": "member"
+        },
+        {
+          "unitId": "u_awem82t5zp",
+          "role": "member"
+        }
+      ],
+      "color": "#009E73"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r_9xon7o3zfk",
+      "from": "u_ot0bllbmct",
+      "to": "u_awem82t5zp",
+      "kind": "coordinates",
+      "note": "Liefertermine"
+    },
+    {
+      "id": "r_s0r65qfe6x",
+      "from": "u_urh91jigmi",
+      "to": "u_hywci0klvx",
+      "kind": "reportsTo",
+      "note": "Monatsberichte"
+    }
+  ],
+  "settings": {
+    "levelNames": [
+      "Geschäftsführung",
+      "Bereich",
+      "Team"
+    ],
+    "spanOfControlHint": 7
+  },
+  "view": {
+    "mode": "tree",
+    "label": {
+      "shortNames": true,
+      "leadCode": true,
+      "holder": false,
+      "positionNumber": false
+    },
+    "filter": {
+      "focusUnitId": null,
+      "showExternal": false,
+      "date": null,
+      "topicTypes": "all",
+      "hiddenTopics": [],
+      "relationKinds": "all"
+    },
+    "tree": {
+      "orientation": "top-down",
+      "stackLeaves": false
+    },
+    "network": {
+      "pinned": {}
+    }
+  }
+}

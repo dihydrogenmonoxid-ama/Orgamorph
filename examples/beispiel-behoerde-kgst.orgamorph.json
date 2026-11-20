@@ -1,0 +1,918 @@
+{
+  "format": "orgamorph",
+  "schemaVersion": 1,
+  "id": "d_xl39ew9j33",
+  "meta": {
+    "title": "Stadtverwaltung Musterstadt",
+    "organization": "Stadt Musterstadt",
+    "asOf": "2026-11-01",
+    "created": "2026-11-20T09:00:00.000Z",
+    "modified": "2026-11-20T09:00:00.000Z"
+  },
+  "units": [
+    {
+      "id": "u_hs8zdeisat",
+      "parentId": null,
+      "name": "Oberbürgermeister",
+      "shortName": "OB",
+      "type": "Verwaltungsleitung",
+      "lead": {
+        "title": "Oberbürgermeister",
+        "code": "OB",
+        "positionNumber": "00.001",
+        "holder": "Max Mustermann"
+      }
+    },
+    {
+      "id": "u_g12k7sao93",
+      "parentId": "u_hs8zdeisat",
+      "name": "Büro Oberbürgermeister",
+      "shortName": "BOB",
+      "type": "Stabsstelle",
+      "isStaff": true
+    },
+    {
+      "id": "u_gzb5rbek63",
+      "parentId": "u_hs8zdeisat",
+      "name": "Presse- und Öffentlichkeitsarbeit",
+      "shortName": "13",
+      "type": "Stabsstelle",
+      "isStaff": true,
+      "lead": {
+        "title": "Pressesprecher",
+        "code": "PS"
+      }
+    },
+    {
+      "id": "u_705u1datb6",
+      "parentId": "u_hs8zdeisat",
+      "name": "Rechnungsprüfungsamt",
+      "shortName": "14",
+      "type": "Stabsstelle",
+      "isStaff": true,
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 14",
+        "positionNumber": "14.000"
+      }
+    },
+    {
+      "id": "u_txweygrpgr",
+      "parentId": "u_hs8zdeisat",
+      "name": "Gleichstellungsstelle",
+      "shortName": "GSt",
+      "type": "Stabsstelle",
+      "isStaff": true
+    },
+    {
+      "id": "u_jmj6h1043p",
+      "parentId": "u_hs8zdeisat",
+      "name": "Dezernat I – Allgemeine Verwaltung",
+      "shortName": "Dez I",
+      "type": "Dezernat",
+      "responsibilities": "Aufgabenhauptgruppe 1",
+      "lead": {
+        "title": "Beigeordnete/r",
+        "code": "B I"
+      }
+    },
+    {
+      "id": "u_kz9bhyqrvh",
+      "parentId": "u_jmj6h1043p",
+      "name": "Hauptamt",
+      "shortName": "10",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 10",
+        "positionNumber": "10.000"
+      }
+    },
+    {
+      "id": "u_ymubbj22v9",
+      "parentId": "u_kz9bhyqrvh",
+      "name": "Organisation",
+      "shortName": "10.1",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 10.1",
+        "positionNumber": "10.10"
+      }
+    },
+    {
+      "id": "u_bmutrmn8xe",
+      "parentId": "u_kz9bhyqrvh",
+      "name": "Informationstechnik",
+      "shortName": "10.2",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 10.2",
+        "positionNumber": "10.20"
+      }
+    },
+    {
+      "id": "u_bqkipetqrb",
+      "parentId": "u_kz9bhyqrvh",
+      "name": "Zentrale Dienste",
+      "shortName": "10.3",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 10.3",
+        "positionNumber": "10.30"
+      }
+    },
+    {
+      "id": "u_aose3hewzy",
+      "parentId": "u_jmj6h1043p",
+      "name": "Personalamt",
+      "shortName": "11",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 11",
+        "positionNumber": "11.000"
+      }
+    },
+    {
+      "id": "u_zzeldeccz1",
+      "parentId": "u_aose3hewzy",
+      "name": "Personalverwaltung",
+      "shortName": "11.1",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 11.1",
+        "positionNumber": "11.10"
+      }
+    },
+    {
+      "id": "u_mi0ywnpdc0",
+      "parentId": "u_aose3hewzy",
+      "name": "Personalentwicklung",
+      "shortName": "11.2",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 11.2",
+        "positionNumber": "11.20"
+      }
+    },
+    {
+      "id": "u_844d97gsut",
+      "parentId": "u_jmj6h1043p",
+      "name": "Statistik und Wahlen",
+      "shortName": "12",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 12",
+        "positionNumber": "12.000"
+      }
+    },
+    {
+      "id": "u_v2v8ls57mj",
+      "parentId": "u_hs8zdeisat",
+      "name": "Dezernat II – Finanzen",
+      "shortName": "Dez II",
+      "type": "Dezernat",
+      "responsibilities": "Aufgabenhauptgruppe 2",
+      "lead": {
+        "title": "Beigeordnete/r",
+        "code": "B II"
+      }
+    },
+    {
+      "id": "u_6nv76t4qbz",
+      "parentId": "u_v2v8ls57mj",
+      "name": "Kämmerei",
+      "shortName": "20",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 20",
+        "positionNumber": "20.000"
+      }
+    },
+    {
+      "id": "u_22aib0maxa",
+      "parentId": "u_6nv76t4qbz",
+      "name": "Haushalt",
+      "shortName": "20.1",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 20.1",
+        "positionNumber": "20.10"
+      }
+    },
+    {
+      "id": "u_5vtvrqqvjy",
+      "parentId": "u_6nv76t4qbz",
+      "name": "Controlling",
+      "shortName": "20.2",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 20.2",
+        "positionNumber": "20.20"
+      }
+    },
+    {
+      "id": "u_nd0b5n9xcs",
+      "parentId": "u_v2v8ls57mj",
+      "name": "Stadtkasse",
+      "shortName": "21",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 21",
+        "positionNumber": "21.000"
+      }
+    },
+    {
+      "id": "u_ldintlhzot",
+      "parentId": "u_v2v8ls57mj",
+      "name": "Steueramt",
+      "shortName": "22",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 22",
+        "positionNumber": "22.000"
+      }
+    },
+    {
+      "id": "u_vccmwjab8r",
+      "parentId": "u_v2v8ls57mj",
+      "name": "Liegenschaftsamt",
+      "shortName": "23",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 23",
+        "positionNumber": "23.000"
+      }
+    },
+    {
+      "id": "u_w4gouhtqs3",
+      "parentId": "u_hs8zdeisat",
+      "name": "Dezernat III – Recht, Sicherheit und Ordnung",
+      "shortName": "Dez III",
+      "type": "Dezernat",
+      "responsibilities": "Aufgabenhauptgruppe 3",
+      "lead": {
+        "title": "Beigeordnete/r",
+        "code": "B III"
+      }
+    },
+    {
+      "id": "u_pkpmvzvt18",
+      "parentId": "u_w4gouhtqs3",
+      "name": "Rechtsamt",
+      "shortName": "30",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 30",
+        "positionNumber": "30.000"
+      }
+    },
+    {
+      "id": "u_du8gjkb0xq",
+      "parentId": "u_w4gouhtqs3",
+      "name": "Ordnungsamt",
+      "shortName": "32",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 32",
+        "positionNumber": "32.000"
+      }
+    },
+    {
+      "id": "u_xgofgr87bk",
+      "parentId": "u_w4gouhtqs3",
+      "name": "Bürgeramt",
+      "shortName": "33",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 33",
+        "positionNumber": "33.000"
+      }
+    },
+    {
+      "id": "u_p45dcowei5",
+      "parentId": "u_w4gouhtqs3",
+      "name": "Feuerwehr",
+      "shortName": "37",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 37",
+        "positionNumber": "37.000"
+      }
+    },
+    {
+      "id": "u_ubecr9tmem",
+      "parentId": "u_p45dcowei5",
+      "name": "Einsatz und Rettungsdienst",
+      "shortName": "37.1",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 37.1",
+        "positionNumber": "37.10"
+      }
+    },
+    {
+      "id": "u_ebc1nh8b8f",
+      "parentId": "u_p45dcowei5",
+      "name": "Vorbeugender Brandschutz",
+      "shortName": "37.2",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 37.2",
+        "positionNumber": "37.20"
+      }
+    },
+    {
+      "id": "u_dk7to9r2jk",
+      "parentId": "u_hs8zdeisat",
+      "name": "Dezernat IV – Schule und Kultur",
+      "shortName": "Dez IV",
+      "type": "Dezernat",
+      "responsibilities": "Aufgabenhauptgruppe 4",
+      "lead": {
+        "title": "Beigeordnete/r",
+        "code": "B IV"
+      }
+    },
+    {
+      "id": "u_0br63md4v4",
+      "parentId": "u_dk7to9r2jk",
+      "name": "Schulverwaltungsamt",
+      "shortName": "40",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 40",
+        "positionNumber": "40.000"
+      }
+    },
+    {
+      "id": "u_dwm48t4gm4",
+      "parentId": "u_dk7to9r2jk",
+      "name": "Kulturamt",
+      "shortName": "41",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 41",
+        "positionNumber": "41.000"
+      }
+    },
+    {
+      "id": "u_8krx5wwc9c",
+      "parentId": "u_dk7to9r2jk",
+      "name": "Stadtbibliothek",
+      "shortName": "42",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 42",
+        "positionNumber": "42.000"
+      }
+    },
+    {
+      "id": "u_ry61z8icfa",
+      "parentId": "u_hs8zdeisat",
+      "name": "Dezernat V – Soziales, Jugend und Gesundheit",
+      "shortName": "Dez V",
+      "type": "Dezernat",
+      "responsibilities": "Aufgabenhauptgruppe 5",
+      "lead": {
+        "title": "Beigeordnete/r",
+        "code": "B V"
+      }
+    },
+    {
+      "id": "u_46uilyohql",
+      "parentId": "u_ry61z8icfa",
+      "name": "Sozialamt",
+      "shortName": "50",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 50",
+        "positionNumber": "50.000"
+      }
+    },
+    {
+      "id": "u_x9ag09fans",
+      "parentId": "u_ry61z8icfa",
+      "name": "Jugendamt",
+      "shortName": "51",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 51",
+        "positionNumber": "51.000"
+      }
+    },
+    {
+      "id": "u_is25xqp85q",
+      "parentId": "u_x9ag09fans",
+      "name": "Allgemeiner Sozialer Dienst",
+      "shortName": "51.1",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 51.1",
+        "positionNumber": "51.10"
+      }
+    },
+    {
+      "id": "u_zk5702mg6a",
+      "parentId": "u_x9ag09fans",
+      "name": "Kindertagesbetreuung",
+      "shortName": "51.2",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 51.2",
+        "positionNumber": "51.20"
+      }
+    },
+    {
+      "id": "u_1udhycirrr",
+      "parentId": "u_x9ag09fans",
+      "name": "Wirtschaftliche Jugendhilfe",
+      "shortName": "51.3",
+      "type": "Sachgebiet",
+      "lead": {
+        "title": "Sachgebietsleitung",
+        "code": "SGL 51.3",
+        "positionNumber": "51.30"
+      }
+    },
+    {
+      "id": "u_caxbbjfqb0",
+      "parentId": "u_ry61z8icfa",
+      "name": "Sportamt",
+      "shortName": "52",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 52",
+        "positionNumber": "52.000"
+      }
+    },
+    {
+      "id": "u_m85plzzvyz",
+      "parentId": "u_ry61z8icfa",
+      "name": "Gesundheitsamt",
+      "shortName": "53",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 53",
+        "positionNumber": "53.000"
+      }
+    },
+    {
+      "id": "u_qtft77kn3r",
+      "parentId": "u_hs8zdeisat",
+      "name": "Dezernat VI – Bauwesen",
+      "shortName": "Dez VI",
+      "type": "Dezernat",
+      "responsibilities": "Aufgabenhauptgruppe 6",
+      "lead": {
+        "title": "Beigeordnete/r",
+        "code": "B VI"
+      }
+    },
+    {
+      "id": "u_jap76gq5bd",
+      "parentId": "u_qtft77kn3r",
+      "name": "Stadtplanungsamt",
+      "shortName": "61",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 61",
+        "positionNumber": "61.000"
+      }
+    },
+    {
+      "id": "u_sbdiiisdiz",
+      "parentId": "u_qtft77kn3r",
+      "name": "Bauordnungsamt",
+      "shortName": "63",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 63",
+        "positionNumber": "63.000"
+      }
+    },
+    {
+      "id": "u_k7pubd1cfm",
+      "parentId": "u_qtft77kn3r",
+      "name": "Hochbauamt",
+      "shortName": "65",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 65",
+        "positionNumber": "65.000"
+      }
+    },
+    {
+      "id": "u_k4idpjrvv6",
+      "parentId": "u_qtft77kn3r",
+      "name": "Tiefbauamt",
+      "shortName": "66",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 66",
+        "positionNumber": "66.000"
+      }
+    },
+    {
+      "id": "u_1e5sr4mu0v",
+      "parentId": "u_qtft77kn3r",
+      "name": "Grünflächenamt",
+      "shortName": "67",
+      "type": "Amt",
+      "lead": {
+        "title": "Amtsleitung",
+        "code": "AL 67",
+        "positionNumber": "67.000"
+      }
+    }
+  ],
+  "topics": [
+    {
+      "id": "t_e218lb6r9a",
+      "title": "Verwaltungsvorstand",
+      "type": "committee",
+      "period": {},
+      "participants": [
+        {
+          "unitId": "u_hs8zdeisat",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_jmj6h1043p",
+          "role": "member"
+        },
+        {
+          "unitId": "u_v2v8ls57mj",
+          "role": "member"
+        },
+        {
+          "unitId": "u_w4gouhtqs3",
+          "role": "member"
+        },
+        {
+          "unitId": "u_dk7to9r2jk",
+          "role": "member"
+        },
+        {
+          "unitId": "u_ry61z8icfa",
+          "role": "member"
+        },
+        {
+          "unitId": "u_qtft77kn3r",
+          "role": "member"
+        }
+      ],
+      "color": "#0072B2"
+    },
+    {
+      "id": "t_o8c1a8xscn",
+      "title": "Onlinezugang (OZG)",
+      "shortName": "OZG",
+      "type": "project",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2026-12-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_bmutrmn8xe",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_xgofgr87bk",
+          "role": "member"
+        },
+        {
+          "unitId": "u_du8gjkb0xq",
+          "role": "member"
+        },
+        {
+          "unitId": "u_zk5702mg6a",
+          "role": "member"
+        },
+        {
+          "unitId": "u_sbdiiisdiz",
+          "role": "member"
+        }
+      ],
+      "color": "#E69F00"
+    },
+    {
+      "id": "t_88uhyno1ih",
+      "title": "Einführung E-Akte",
+      "shortName": "E-Akte",
+      "type": "project",
+      "period": {
+        "from": "2025-04-01",
+        "to": "2027-03-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_ymubbj22v9",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_bmutrmn8xe",
+          "role": "member"
+        },
+        {
+          "unitId": "u_zzeldeccz1",
+          "role": "member"
+        },
+        {
+          "unitId": "u_nd0b5n9xcs",
+          "role": "member"
+        },
+        {
+          "unitId": "u_46uilyohql",
+          "role": "member"
+        },
+        {
+          "unitId": "u_sbdiiisdiz",
+          "role": "member"
+        }
+      ],
+      "color": "#009E73"
+    },
+    {
+      "id": "t_x41aecjbe7",
+      "title": "Klimaschutzkonzept",
+      "type": "project",
+      "period": {
+        "from": "2026-01-01",
+        "to": "2027-06-30"
+      },
+      "participants": [
+        {
+          "unitId": "u_jap76gq5bd",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_k7pubd1cfm",
+          "role": "member"
+        },
+        {
+          "unitId": "u_k4idpjrvv6",
+          "role": "member"
+        },
+        {
+          "unitId": "u_1e5sr4mu0v",
+          "role": "member"
+        },
+        {
+          "unitId": "u_22aib0maxa",
+          "role": "member"
+        },
+        {
+          "unitId": "u_gzb5rbek63",
+          "role": "member"
+        }
+      ],
+      "color": "#CC79A7"
+    },
+    {
+      "id": "t_hmcrbep3m1",
+      "title": "Kita-Ausbau",
+      "type": "project",
+      "period": {
+        "from": "2026-03-01",
+        "to": "2027-12-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_zk5702mg6a",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_k7pubd1cfm",
+          "role": "member"
+        },
+        {
+          "unitId": "u_vccmwjab8r",
+          "role": "member"
+        },
+        {
+          "unitId": "u_22aib0maxa",
+          "role": "member"
+        }
+      ],
+      "color": "#56B4E9"
+    },
+    {
+      "id": "t_frbwucxwup",
+      "title": "Schulsanierung",
+      "type": "project",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2028-12-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_k7pubd1cfm",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_0br63md4v4",
+          "role": "member"
+        },
+        {
+          "unitId": "u_5vtvrqqvjy",
+          "role": "member"
+        }
+      ],
+      "color": "#D55E00"
+    },
+    {
+      "id": "t_1c5o8q7kpp",
+      "title": "Krisenstab",
+      "type": "committee",
+      "period": {},
+      "participants": [
+        {
+          "unitId": "u_hs8zdeisat",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_w4gouhtqs3",
+          "role": "member"
+        },
+        {
+          "unitId": "u_p45dcowei5",
+          "role": "member"
+        },
+        {
+          "unitId": "u_m85plzzvyz",
+          "role": "member"
+        },
+        {
+          "unitId": "u_gzb5rbek63",
+          "role": "member"
+        },
+        {
+          "unitId": "u_bmutrmn8xe",
+          "role": "member"
+        }
+      ],
+      "color": "#F0E442"
+    },
+    {
+      "id": "t_alt68sl8r3",
+      "title": "Personalentwicklung",
+      "type": "crossCutting",
+      "period": {},
+      "participants": [
+        {
+          "unitId": "u_mi0ywnpdc0",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_ymubbj22v9",
+          "role": "member"
+        },
+        {
+          "unitId": "u_txweygrpgr",
+          "role": "member"
+        }
+      ],
+      "color": "#000000"
+    },
+    {
+      "id": "t_declqqvdvl",
+      "title": "Haushaltskonsolidierung",
+      "type": "project",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2025-12-31"
+      },
+      "participants": [
+        {
+          "unitId": "u_22aib0maxa",
+          "role": "lead"
+        },
+        {
+          "unitId": "u_jmj6h1043p",
+          "role": "member"
+        },
+        {
+          "unitId": "u_v2v8ls57mj",
+          "role": "member"
+        },
+        {
+          "unitId": "u_w4gouhtqs3",
+          "role": "member"
+        },
+        {
+          "unitId": "u_dk7to9r2jk",
+          "role": "member"
+        },
+        {
+          "unitId": "u_ry61z8icfa",
+          "role": "member"
+        },
+        {
+          "unitId": "u_qtft77kn3r",
+          "role": "member"
+        }
+      ],
+      "color": "#0072B2"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r_ro3fb4lk2z",
+      "from": "u_705u1datb6",
+      "to": "u_hs8zdeisat",
+      "kind": "reportsTo",
+      "note": "unabhängig, dem Rat zugeordnet"
+    },
+    {
+      "id": "r_ug4jz3pfrx",
+      "from": "u_bmutrmn8xe",
+      "to": "u_ymubbj22v9",
+      "kind": "coordinates"
+    },
+    {
+      "id": "r_4gilywwiep",
+      "from": "u_6nv76t4qbz",
+      "to": "u_qtft77kn3r",
+      "kind": "directs",
+      "note": "Haushaltsvollzug"
+    },
+    {
+      "id": "r_ab0j1la3l1",
+      "from": "u_p45dcowei5",
+      "to": "u_m85plzzvyz",
+      "kind": "informs"
+    },
+    {
+      "id": "r_v5en00zkq6",
+      "from": "u_gzb5rbek63",
+      "to": "u_p45dcowei5",
+      "kind": "coordinates"
+    }
+  ],
+  "settings": {
+    "levelNames": [
+      "Verwaltungsleitung",
+      "Dezernat",
+      "Amt",
+      "Sachgebiet"
+    ],
+    "spanOfControlHint": 7
+  },
+  "view": {
+    "mode": "tree",
+    "label": {
+      "shortNames": true,
+      "leadCode": true,
+      "holder": false,
+      "positionNumber": false
+    },
+    "filter": {
+      "focusUnitId": null,
+      "showExternal": false,
+      "date": null,
+      "topicTypes": "all",
+      "hiddenTopics": [],
+      "relationKinds": "all"
+    },
+    "tree": {
+      "orientation": "top-down",
+      "stackLeaves": true
+    },
+    "network": {
+      "pinned": {}
+    }
+  }
+}

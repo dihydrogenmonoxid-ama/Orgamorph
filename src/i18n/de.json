@@ -1,0 +1,449 @@
+{
+  "about": {
+    "build": "Build",
+    "license": "Lizenz: EUPL-1.2. Ohne Gewähr.",
+    "privacy": "Orgamorph arbeitet vollständig lokal. Es gibt keine Netzwerkzugriffe und keine Telemetrie. Daten bleiben in Ihrer Datei oder im Speicher dieses Browsers.",
+    "tagline": "Vom Organigramm zum Netzwerk.",
+    "title": "Über Orgamorph",
+    "github": "Quellcode auf GitHub",
+    "source": "Quellcode und Releases"
+  },
+  "action": {
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "new": "Neu",
+    "open": "Öffnen",
+    "redo": "Wiederholen",
+    "save": "Speichern",
+    "saveFile": "Als Datei sichern",
+    "undo": "Rückgängig",
+    "home": "Zur Startseite (vorher speichern)"
+  },
+  "confirm": {
+    "title": "Rückfrage"
+  },
+  "conflict": {
+    "title": "Datei wurde extern geändert",
+    "text": "Die Datei wurde seit dem letzten Speichern außerhalb von Orgamorph geändert. Ihre Änderungen wurden noch nicht geschrieben.",
+    "reload": "Neu laden",
+    "keep": "Meine Version behalten",
+    "copy": "Als Kopie speichern"
+  },
+  "document": {
+    "title": "Dokument",
+    "name": "Titel",
+    "organization": "Organisation",
+    "asOf": "Stand",
+    "levelNames": "Ebenenbezeichnungen (durch Komma getrennt)",
+    "spanHint": "Hinweis ab Leitungsspanne",
+    "created": "Angelegt",
+    "modified": "Geändert",
+    "edit": "Dokumenteigenschaften bearbeiten",
+    "newTitle": "Neue Organisation",
+    "untitled": "Ohne Titel",
+    "settings": "Einstellungen"
+  },
+  "empty": {
+    "lead": "Organisation erfassen, als Organigramm, Sternnetz oder Netz ansehen, Projekte und Beziehungen darüberlegen. Wählen Sie einen Einstieg.",
+    "exampleTitle": "Beispiel öffnen",
+    "exampleText": "Ein fertiges Dokument zum Ausprobieren. Änderungen betreffen nur Ihre Kopie.",
+    "new": "Leeres Dokument",
+    "open": "Datei öffnen",
+    "recent": "Zuletzt geöffnet",
+    "fileEntry": "Datei",
+    "browserEntry": "Browser-Speicher",
+    "privacy": "Keine Netzwerkzugriffe, keine Telemetrie. Namen und Stellennummern sind optional und in Ausgaben standardmäßig ausgeblendet.",
+    "tableTitle": "Struktur importieren",
+    "tableText": "Aus Excel (XLSX) oder CSV. Die Vorlage enthält ein Blatt „Beispiel“ und ein Blatt „Blanko“ zum Eintragen.",
+    "tableRun": "XLSX oder CSV wählen",
+    "templateXlsx": "Excel-Vorlage herunterladen",
+    "exampleCsv": "Beispiel-CSV herunterladen",
+    "startTitle": "Neu beginnen",
+    "startText": "Leeres Dokument anlegen oder eine gespeicherte Orgamorph-Datei öffnen."
+  },
+  "example": {
+    "behoerde": "Stadtverwaltung nach KGSt",
+    "firma": "Einfache Firma"
+  },
+  "export": {
+    "title": "Exportieren",
+    "short": "Export",
+    "filterHint": "Alle Exporte zeigen die aktuelle Sicht mit Fokus und Filtern.",
+    "privacy": "Personenbezogene Angaben",
+    "showHolder": "Namen anzeigen",
+    "showPosition": "Stellennummern anzeigen",
+    "privacyHint": "Standardmäßig aus. Gilt für SVG, PNG, PDF und CSV der Einheiten.",
+    "png": "PNG",
+    "resolution": "Auflösung",
+    "formats": "Formate",
+    "jsonHint": "JSON enthält das vollständige Dokument einschließlich aller Angaben.",
+    "pngFailed": "PNG konnte nicht erzeugt werden.",
+    "as": {
+      "svg": "SVG",
+      "png": "PNG",
+      "json": "JSON (Dokument)",
+      "csvUnits": "CSV Einheiten",
+      "csvTopics": "CSV Projekte & Themen",
+      "outline": "Gliederungstext"
+    },
+    "res": {
+      "screen": "Bildschirm (1×)",
+      "double": "Doppelt (2×)",
+      "printA4": "Druck 300 dpi für A4",
+      "printA3": "Druck 300 dpi für A3"
+    }
+  },
+  "external": {
+    "count": "{n} OE"
+  },
+  "filter": {
+    "focus": "Fokus",
+    "focusAll": "Gesamte Organisation",
+    "focusBadge": "Fokus",
+    "focusOn": "Fokus setzen",
+    "focusOff": "Fokus aufheben",
+    "external": "Außenkontakte",
+    "date": "Stichtag",
+    "dateAll": "alle",
+    "more": "Filter",
+    "topicTypes": "Typen von Projekten & Themen",
+    "relationKinds": "Beziehungsarten",
+    "labels": "Beschriftung",
+    "treeOptions": "Organigramm",
+    "stackLeaves": "Gestapelte Blattebene",
+    "leftRight": "Ausrichtung links–rechts",
+    "reset": "Zurücksetzen",
+    "hiddenCount": "{n} ausgeblendet"
+  },
+  "form": {
+    "required": "Pflichtfeld",
+    "search": "Suchen",
+    "searchUnits": "Einheiten suchen",
+    "choose": "Bitte wählen"
+  },
+  "help": {
+    "title": "Tastaturhilfe"
+  },
+  "keys": {
+    "enter": "Geschwister-OE darunter anlegen (im Namensfeld: übernehmen und nächste anlegen)",
+    "tab": "Einrücken (wird Kind) / ausrücken",
+    "insert": "Untergeordnete OE anlegen",
+    "f2": "Umbenennen",
+    "delete": "OE löschen (mit Teilbaum, Rückfrage bei mehr als einer OE)",
+    "altArrows": "Reihenfolge ändern",
+    "arrows": "Im Struktur-Editor bewegen, zu- und aufklappen",
+    "views": "Organigramm / Sternnetz / Netz",
+    "focus": "Fokus auf ausgewählte OE",
+    "esc": "Fokus aufheben",
+    "project": "Neues Projekt",
+    "matrix": "Beteiligungsmatrix",
+    "undo": "Rückgängig / Wiederholen",
+    "save": "Speichern bzw. Speicherort festlegen",
+    "open": "Öffnen",
+    "print": "Drucken / PDF",
+    "zoom": "Darstellung vergrößern, verkleinern, einpassen",
+    "help": "Diese Hilfe"
+  },
+  "import": {
+    "title": "Importieren",
+    "short": "Import",
+    "outline": "Gliederungstext",
+    "outlineHint": "Eingerückte Liste (Tab oder 2 Leerzeichen je Ebene, optional „Kürzel | Name“). Wird unter „{target}“ eingefügt.",
+    "topicsHint": "Spalten: title;type;from;to;lead;members. Beteiligte über Kürzel, Name oder ID, getrennt durch Komma oder |.",
+    "outlinePlaceholder": "Behördenleitung\n  Abt 1 | Abteilung 1\n    Referat 1.1\n    Referat 1.2\n  Abt 2 | Abteilung 2",
+    "text": "Inhalt",
+    "file": "oder Datei wählen",
+    "run": "Importieren",
+    "done": "{n} Einheiten eingefügt.",
+    "topicsDone": "{n} Projekte & Themen importiert.",
+    "unitsTable": "Einheiten (XLSX/CSV)",
+    "topicsTable": "Projekte (XLSX/CSV)",
+    "unitsHint": "Spalten wie in der Excel-Vorlage (ID, Übergeordnet, Bezeichnung, Kürzel …). Oberste Einträge werden unter „{target}“ eingefügt.",
+    "fileTable": "Datei (XLSX oder CSV)",
+    "pasteCsv": "oder CSV-Text einfügen",
+    "tableEmpty": "Keine Einträge gefunden. Spalte „Bezeichnung“ bzw. „name“ vorhanden?",
+    "doneWithIssues": "{n} Einheiten importiert, {issues} Hinweise.",
+    "fileError": {
+      "empty": "Die Datei enthält keine Zeilen unterhalb der Spaltenköpfe.",
+      "unreadable": "Die Datei konnte nicht gelesen werden."
+    }
+  },
+  "csvIssue": {
+    "missingColumn": "Spalte „{column}“ fehlt",
+    "emptyName": "Zeile {row}: ohne Bezeichnung, übersprungen",
+    "unknownParent": "Zeile {row}: übergeordnete OE „{value}“ unbekannt",
+    "duplicateId": "Zeile {row}: ID „{value}“ doppelt",
+    "cycle": "Zeile {row}: Zyklus aufgelöst",
+    "unknownUnit": "Zeile {row}: Einheit „{value}“ unbekannt",
+    "invalidDate": "Zeile {row}: Datum „{value}“ nicht übernommen",
+    "unknownType": "Zeile {row}: Typ „{value}“ unbekannt, als Sonstiges übernommen"
+  },
+  "issue": {
+    "duplicatePositionNumber": "Stellennummer {value} mehrfach vergeben",
+    "spanOfControl": "Leitungsspanne {value}",
+    "noRoot": "Keine Wurzel",
+    "multipleRoots": "Mehrere Wurzeln",
+    "missingParent": "Übergeordnete OE fehlt",
+    "cycle": "Zyklus",
+    "duplicateId": "ID doppelt",
+    "emptyName": "Name fehlt",
+    "missingParticipant": "Beteiligte OE fehlt",
+    "duplicateParticipant": "OE mehrfach beteiligt",
+    "missingRelationEnd": "Ende der Beziehung fehlt",
+    "selfRelation": "Beziehung auf sich selbst",
+    "invalidPeriod": "Zeitraum: Beginn nach Ende",
+    "invalidDate": "Datum ungültig",
+    "invalidType": "Typ ungültig",
+    "invalidLogo": "Logo ungültig, wird nicht gedruckt"
+  },
+  "label": {
+    "shortNames": "Kürzel",
+    "leadCode": "Funktionskürzel",
+    "holder": "Namen",
+    "positionNumber": "Stellennummern"
+  },
+  "lang": {
+    "label": "Sprache"
+  },
+  "legend": {
+    "title": "Legende",
+    "hide": "Ausblenden",
+    "show": "Einblenden"
+  },
+  "matrix": {
+    "title": "Beteiligungsmatrix",
+    "short": "Matrix",
+    "units": "Einheiten",
+    "hint": "Klick oder Leertaste wechselt: leer → mitwirkend → federführend → leer. Pfeiltasten bewegen.",
+    "legendNone": "nicht beteiligt (leer)",
+    "legendMember": "mitwirkend (Rahmen)",
+    "legendLead": "federführend (gefüllt)"
+  },
+  "metrics": {
+    "title": "Kennwerte",
+    "units": "Einheiten",
+    "depth": "Hierarchietiefe",
+    "width": "Breite je Ebene",
+    "span": "Leitungsspanne min / Median / max",
+    "topics": "Projekte & Themen",
+    "unitsPerTopic": "OEs je Projekt (Mittel)",
+    "interfaces": "Schnittstellen",
+    "meshedness": "Vermaschungsgrad",
+    "meshednessHint": "0 = reiner Baum, 1 = jeder mit jedem",
+    "spanHint": "Bezogen auf den aktuellen Filter. Hinweis ab einer Leitungsspanne über {n}.",
+    "topParticipation": "Meiste Projektbeteiligungen",
+    "topInterfaces": "Meiste Schnittstellen",
+    "hints": "Hinweise"
+  },
+  "notice": {
+    "readOnly": "Das Dokument ist nur lesend geöffnet.",
+    "readOnlyBadge": "Nur lesend",
+    "newerSchema": "Die Datei stammt aus einer neueren Orgamorph-Version und ist nur lesend geöffnet.",
+    "openFailed": "Die Datei konnte nicht geöffnet werden.",
+    "permissionDenied": "Zugriff auf die Datei wurde nicht erlaubt.",
+    "saved": "Gespeichert.",
+    "saveFailed": "Speichern nicht möglich.",
+    "fileMode": "Änderungen werden automatisch in „{name}“ gespeichert."
+  },
+  "panel": {
+    "left": "Struktur, Projekte und Beziehungen",
+    "right": "Eigenschaften und Kennwerte"
+  },
+  "parse": {
+    "notJson": "Die Datei ist kein gültiges JSON.",
+    "notOrgamorph": "Die Datei ist keine Orgamorph-Datei.",
+    "invalid": "Die Datei enthält ungültige Daten."
+  },
+  "print": {
+    "title": "Drucken / PDF",
+    "short": "PDF",
+    "run": "Drucken",
+    "format": "Format",
+    "orientation": "Ausrichtung",
+    "margin": "Rand (mm)",
+    "o": {
+      "auto": "automatisch",
+      "portrait": "hoch",
+      "landscape": "quer"
+    },
+    "legibility": "Lesbarkeit",
+    "minFont": "Kleinste Schrift: {pt} pt",
+    "suggestions": "Unter 6 pt. Vorschläge:",
+    "suggest": {
+      "useA3": "A3 statt A4",
+      "stackLeaves": "Gestapelte Blattebene",
+      "focus": "Fokus auf einen Teilbereich",
+      "hideDetails": "Namen und Stellennummern ausblenden"
+    },
+    "focusHint": "Fokus über die Werkzeugleiste setzen, dann erneut drucken.",
+    "pdfHint": "Im Druckdialog „Als PDF speichern“ wählen.",
+    "preview": "Vorschau",
+    "organization": "Organisation",
+    "asOf": "Stand",
+    "date": "Stichtag",
+    "filter": "Filter",
+    "page": "Seite {n} von {total}",
+    "createdWith": "erstellt mit Orgamorph {version}",
+    "more": "und {n} weitere",
+    "department": "Einheit",
+    "author": "Erstellt von"
+  },
+  "reject": {
+    "rootSibling": "Die oberste Einheit hat keine Geschwister. Untergeordnete Einheit anlegen.",
+    "emptyName": "Ein Name ist erforderlich.",
+    "emptyTitle": "Ein Titel ist erforderlich.",
+    "deleteRoot": "Die oberste Einheit kann nicht gelöscht werden.",
+    "moveRoot": "Die oberste Einheit bleibt oben.",
+    "noPreviousSibling": "Einrücken braucht eine Einheit darüber.",
+    "wouldCreateRoot": "Weiter ausrücken ist nicht möglich.",
+    "noNeighbour": "Bereits am Rand.",
+    "invalidParent": "Eine Einheit kann nicht unter sich selbst oder einen Nachfahren verschoben werden.",
+    "duplicateId": "Doppelte ID.",
+    "missingParent": "Übergeordnete Einheit fehlt.",
+    "invalidPeriod": "Der Beginn liegt nach dem Ende.",
+    "unknownUnit": "Einheit nicht gefunden.",
+    "unknownTopic": "Projekt nicht gefunden.",
+    "unknownRelation": "Beziehung nicht gefunden.",
+    "selfRelation": "Eine Beziehung braucht zwei verschiedene Einheiten.",
+    "invalidSpan": "Wert muss mindestens 1 sein.",
+    "invalidLogo": "Das Logo hat ein ungültiges Format."
+  },
+  "relation": {
+    "title": "Beziehung",
+    "listTitle": "Beziehungen",
+    "add": "Beziehung hinzufügen",
+    "delete": "Beziehung löschen",
+    "empty": "Noch keine Beziehungen. Beziehungen ergänzen die Linie: berichtet an, weist fachlich an, informiert, stimmt sich ab.",
+    "from": "Von",
+    "to": "An",
+    "kind": "Art",
+    "note": "Notiz"
+  },
+  "relationKind": {
+    "reportsTo": "berichtet an",
+    "directs": "weist fachlich an",
+    "informs": "informiert",
+    "coordinates": "stimmt sich ab"
+  },
+  "role": {
+    "lead": "federführend",
+    "member": "mitwirkend",
+    "none": "nicht beteiligt",
+    "leadShort": "FF",
+    "memberShort": "MW"
+  },
+  "save": {
+    "savedAt": "Gespeichert {time}",
+    "saving": "Speichert …",
+    "pending": "Änderungen …",
+    "notSaved": "Nicht gespeichert",
+    "reason": {
+      "conflict": "Datei extern geändert",
+      "permission": "kein Schreibzugriff",
+      "storage": "Browser-Speicher nicht verfügbar",
+      "unknown": "Fehler beim Schreiben"
+    },
+    "browserOnly": "Nur im Browser gespeichert",
+    "browserHint": "Klicken, um als Datei zu sichern",
+    "fileHint": "Automatisch in diese Datei gespeichert"
+  },
+  "structure": {
+    "title": "Struktur",
+    "addChild": "Untergeordnet",
+    "addChildKey": "Untergeordnete Einheit anlegen (Einfg)",
+    "addSibling": "Geschwister darunter (Enter)",
+    "indent": "Einrücken (Tab)",
+    "outdent": "Ausrücken (Shift+Tab)",
+    "moveUp": "Nach oben (Alt+↑)",
+    "moveDown": "Nach unten (Alt+↓)",
+    "delete": "Einheit löschen",
+    "confirmDelete": "„{name}“ mit allen untergeordneten Einheiten löschen ({n} Einheiten)? Beteiligungen und Beziehungen werden mit entfernt. Rückgängig mit Strg+Z.",
+    "keysHint": "Enter: neue Einheit · Tab: einrücken · F2: umbenennen · ?: alle Tasten"
+  },
+  "toolbar": {
+    "label": "Sicht und Filter"
+  },
+  "topic": {
+    "title": "Projekt / Thema",
+    "listTitle": "Projekte & Themen",
+    "add": "Projekt hinzufügen",
+    "delete": "Projekt löschen",
+    "empty": "Noch keine Projekte oder Themen. Mit P oder „Projekt hinzufügen“ anlegen.",
+    "name": "Titel",
+    "newName": "Neues Projekt",
+    "shortName": "Kürzel",
+    "type": "Typ",
+    "from": "Von",
+    "to": "Bis",
+    "permanent": "dauerhaft / offen",
+    "color": "Farbe",
+    "note": "Notiz",
+    "participants": "Beteiligte ({n})",
+    "participantsList": "Beteiligte Einheiten",
+    "roleHint": "FF = federführend, MW = mitwirkend",
+    "count": "{n} OE",
+    "periodOpen": "dauerhaft",
+    "periodSince": "seit {from}",
+    "periodUntil": "bis {to}"
+  },
+  "topicType": {
+    "project": "Projekt",
+    "workingGroup": "Arbeitsgruppe",
+    "committee": "Gremium",
+    "crossCutting": "Querschnittsaufgabe",
+    "other": "Sonstiges"
+  },
+  "unit": {
+    "title": "Organisationseinheit",
+    "name": "Name",
+    "shortName": "Kürzel",
+    "type": "Typ / Ebene",
+    "responsibilities": "Aufgabenbereich",
+    "isStaff": "Stabsstelle",
+    "staffBadge": "Stab",
+    "lead": "Leitung",
+    "leadTitle": "Funktion",
+    "leadCode": "Funktionskürzel",
+    "positionNumber": "Stellennummer",
+    "holder": "Besetzung (Name)",
+    "privacyHint": "Name und Stellennummer sind optional und in allen Ausgaben standardmäßig ausgeblendet.",
+    "position": "Einordnung",
+    "parent": "Übergeordnete OE",
+    "isRoot": "Oberste Einheit der Organisation.",
+    "note": "Notiz",
+    "connections": "Projekte und Beziehungen",
+    "newName": "Neue Einheit",
+    "rootName": "Leitung"
+  },
+  "view": {
+    "tree": "Organigramm",
+    "star": "Sternnetz",
+    "network": "Netz",
+    "switch": "Sicht",
+    "summary": "{view} mit {units} Einheiten, {topics} Projekten und {relations} Beziehungen. Die Struktur ist links im Struktur-Editor als Liste bedienbar.",
+    "desc": "Grafische Darstellung. Zoomen mit + und −, einpassen mit 0, verschieben mit den Pfeiltasten.",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "fit": "Einpassen",
+    "local": "Lokaler Graph",
+    "localOff": "aus",
+    "localDepth": "Tiefe {n}",
+    "roledescription": "Interaktive Grafik"
+  },
+  "planHead": {
+    "title": "Plankopf",
+    "department": "Organisationseinheit / Abteilung",
+    "author": "Erstellt von (Name)",
+    "logo": "Logo",
+    "logoAdd": "Logo hinzufügen",
+    "logoReplace": "Logo ersetzen",
+    "logoRemove": "Logo entfernen",
+    "logoAlt": "Logo",
+    "noLogo": "kein Logo",
+    "hint": "Erscheint im Schriftfeld des PDF. PNG, JPEG, WebP oder SVG; große Bilder werden verkleinert.",
+    "logoType": "Dateiformat nicht unterstützt.",
+    "logoSize": "Das Logo ist zu groß (höchstens ca. 300 kB).",
+    "logoUnsafe": "Das SVG enthält Skripte und wird nicht übernommen."
+  }
+}

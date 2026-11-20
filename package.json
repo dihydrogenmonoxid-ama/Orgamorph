@@ -1,0 +1,45 @@
+{
+  "name": "orgamorph",
+  "version": "0.1.0",
+  "description": "Vom Organigramm zum Netzwerk · From org chart to network — eine einzige HTML-Datei",
+  "private": true,
+  "license": "EUPL-1.2",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "check": "biome check . && tsc --noEmit && tsc --noEmit -p tsconfig.core.json",
+    "format": "biome format --write .",
+    "test": "node --test \"tests/core/**/*.test.ts\" \"tests/unit/**/*.test.ts\"",
+    "test:coverage": "node --test --experimental-test-coverage --test-coverage-include=\"src/core/**\" \"tests/core/**/*.test.ts\"",
+    "test:e2e": "playwright test",
+    "examples": "node scripts/generate-examples.ts"
+  },
+  "dependencies": {
+    "@preact/signals": "2.11.4",
+    "d3-force": "3.0.1",
+    "d3-hierarchy": "3.1.3",
+    "immer": "11.2.10",
+    "preact": "11.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "@playwright/test": "1.65.1",
+    "@types/d3-force": "3.0.10",
+    "@types/d3-hierarchy": "3.1.7",
+    "@types/node": "26.6.6",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  },
+  "homepage": "https://github.com/dihydrogenmonoxid-ama/Orgamorph",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dihydrogenmonoxid-ama/Orgamorph.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dihydrogenmonoxid-ama/Orgamorph/issues"
+  }
+}

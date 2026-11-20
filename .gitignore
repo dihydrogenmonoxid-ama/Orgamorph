@@ -1,0 +1,36 @@
+# Abhängigkeiten und Build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Tests
+test-results/
+playwright-report/
+blob-report/
+coverage/
+
+# Lokale Konfiguration, Zugangsdaten, persönliche Dateien
+.env
+.env.*
+*.local
+*.pem
+*.key
+.npmrc
+
+# Eigene Dokumente und Exporte nicht versehentlich einchecken
+*.orgamorph.json
+!examples/*.orgamorph.json
+/*.csv
+/*.xlsx
+/*.pdf
+/*.png
+/*.svg
+
+# Editor und Betriebssystem
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
