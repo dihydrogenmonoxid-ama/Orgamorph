@@ -2,6 +2,13 @@
 
 Alle nennenswerten Änderungen. Format nach [Keep a Changelog](https://keepachangelog.com/de/1.1.0/), Versionen nach SemVer. Ab dem ersten Release pflegt release-please diese Datei.
 
+## 0.1.0 (2026-11-20)
+
+
+### Features
+
+* Orgamorph 0.1.0 – vom Organigramm zum Netzwerk ([77d7b4e](https://github.com/dihydrogenmonoxid-ama/Orgamorph/commit/77d7b4e878935b421dc8ec2fb26d23b553c8cbc2))
+
 ## [Unreleased] – 0.1.0 (MVP)
 
 ### Hinzugefügt
